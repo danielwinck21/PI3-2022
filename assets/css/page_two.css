@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Ingrid+Darling&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: rgb(156, 245, 245); 
+}
+.photo-info-one{
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+
+}
+.photo{
+    height: 150px;
+    width: 150px;
+    border-radius: 250px;
+    border:1px solid #09A49A;
+}
+.structure{
+ 
+    height:157px;
+    width: 966px;
+    background-color:#09A49A ;
+    border-radius: 50px;
+    padding-top: 5px;
+    
+}
+.texts{
+    display: flex;
+    justify-content: space-around;
+ 
+}
+.text{
+
+    color: azure;
+    font-family: 'Ingrid Darling', cursive;
+    font-size: 35px;
+}
+
+.inputs-up{
+  padding: 10px;
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  color: aliceblue;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.inputs-low{
+    padding: 10px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    color: aliceblue;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.photo-info-two{
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+  
+}
+
+.photo-info-three{
+ display: flex;
+ padding: 30px;
+ gap: 50px;
+ 
+}
+
+.button-finish-back{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    color:white;
+    font-family:'Ingrid Darling', cursive;   
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.button-finish{
+ border: 1px solid #ef5310;
+ background-color: #ef5310;
+ padding: 30px;
+ border-radius: 60px;
+}
+
+.button-back{
+    border: 1px solid #ef5310;
+    background-color: #ef5310;
+    padding: 30px;
+    border-radius: 60px;
+}
+
+.button-finish:hover{
+    background-color: red;
+}
+
+.button-back:hover{
+    background-color: red;
+}
+
+footer{
+    padding-top: 20px;
+}
